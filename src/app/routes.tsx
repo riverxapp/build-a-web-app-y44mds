@@ -1,9 +1,11 @@
 import { createBrowserRouter, type RouteObject } from "react-router-dom";
 import { HomePage } from "../pages/home";
+import { BoardPage } from "../pages/board";
 import { NotFoundPage } from "../pages/NotFoundPage";
 
 const routes: RouteObject[] = [
-  { path: "/", element: <HomePage /> },
+  { path: "/", element: <BoardPage /> },
+  { path: "/board", element: <BoardPage /> },
   { path: "*", element: <NotFoundPage /> },
 ];
 

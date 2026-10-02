@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --strictPort",
-    "build": "vite build",
+    "dev": "node init && vite --host 0.0.0.0 --strictPort",
+    "build": "node init && vite build",
     "preview": "vite preview --host 0.0.0.0 --strictPort",
     "typecheck": "tsc --noEmit",
     "verify:dev-runtime": "node scripts/verify-dev-runtime.js"

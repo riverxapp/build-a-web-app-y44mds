@@ -5,7 +5,6 @@ node_modules/
 dist/
 
 # environment files
-.env.local
 .env.*.local
 !.env.example
 
@@ -13,9 +12,9 @@ dist/
 *.log
 
 # editor files
-.vscode/
 .idea/
 
 # system files
 .DS_Store
 config.bat
+
