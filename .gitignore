@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment files
+.env.local
+.env.*.local
+!.env.example
+
+# logs
+*.log
+
+# editor files
+.vscode/
+.idea/
+
+# system files
+.DS_Store
+config.bat
